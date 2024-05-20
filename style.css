@@ -1,0 +1,100 @@
+nav{
+    background-color: #2f0756;
+   
+}
+.color-gris{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+.green{
+        border-bottom: 2px solid aqua;
+}
+.display{
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+} 
+.section-bg{
+    background-color: #2f0756;
+    color: #fff;
+}
+button[type=button]{
+    background-color: aqua;
+    color: #2f0756;
+}
+.class{
+    background-color: gainsboro;
+    color: #2f0756;
+}
+.rond{
+    margin-left: 150px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #2f0756;
+    font-size: 16px;
+}
+.fonte{
+    font-family: "Playfair Display", serif;
+}
+.image{
+    background-color: #fff;
+}
+.flex{
+    display: flex;
+}
+.ronde{
+    background-color: aqua;
+    border-radius: 50%;
+    height: 400px;
+    
+}
+.fond{
+    background-color: #2f0756;
+    padding: 20px;
+    width: 600px;
+    transform: translateY(5rem);
+
+}
+footer{
+    color: #2f0756;
+}
+@media screen and (max-width:375px) {
+    .display{
+        font-size: 25px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .fond{
+        width: 360px;
+    }
+    
+}
+@media screen and (max-width: 780px) {
+    .display{
+        font-size: 25px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .fond{
+        width: 320px;
+    }
+}
+@media screen and (max-width:320px) {
+    .display{
+        font-size: 25px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .fond{
+        width: 320px;
+    }
+}
